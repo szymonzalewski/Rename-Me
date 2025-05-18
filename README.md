@@ -14,7 +14,7 @@ Stworzona w czystym HTML, CSS i JavaScript.
 1. Pobierz repozytorium lub sklonuj:
 
    ```bash
-   git clone https://github.com/szymonzalewski/Task_Manager_Mvp
+   git clone https://github.com/szymonzalewski/Rename-Me.git
 
    ```
 
