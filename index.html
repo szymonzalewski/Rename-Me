@@ -6,16 +6,19 @@
     <title>Rename Me</title>
     <link rel="icon" type="image/png" href="images/r.png" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <form id="uploadForm" enctype="multipart/form-data">
-      <label for="files">Wybierz pliki</label>
-      <input type="file" id="files" name="files[]" multiple />
-
-      <label for="name">Wprowadz nazwę pliku</label>
-      <input type="text" id="name" />
-      <button type="submit">Wyślij</button>
+      <div class="choose--input">
+        <label for="files">Wybierz pliki</label>
+        <input type="file" id="files" name="files[]" multiple />
+      </div>
+      <div class="send--input">
+        <label for="name">Wprowadz nazwę pliku</label>
+        <input type="text" id="name" />
+        <button type="submit" id="name--button">Wyślij</button>
+      </div>
     </form>
     <script src="script.js"></script>
   </body>
